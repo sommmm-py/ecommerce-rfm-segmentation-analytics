@@ -6,7 +6,7 @@
 
 An end-to-end data analytics and business intelligence project demonstrating data cleansing, **RFM (Recency, Frequency, Monetary) Customer Segmentation**, and **Monthly Cohort Retention Analysis**. It features a python processing pipeline, an Exploratory Data Analysis (EDA) notebook, and a premium **Interactive Web Dashboard** deployable to GitHub Pages.
 
-🚀 **[Live Interactive Dashboard Demo](http://localhost:8000/dashboard/index.html#)**
+🚀 **[Live Interactive Dashboard Demo](https://sommmm-py.github.io/ecommerce-rfm-segmentation-analytics/dashboard/index.html)**
 
 ---
 
