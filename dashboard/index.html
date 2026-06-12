@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Analytics | E-Commerce Segmentation Dashboard</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <i class="fa-solid fa-chart-line logo-icon"></i>
+                <span class="logo-text">Apex<span>Analytics</span></span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active"><i class="fa-solid fa-gauge"></i> Overview</a>
+                <a href="#cohorts-section" class="nav-item"><i class="fa-solid fa-users-line"></i> Cohort Analysis</a>
+                <a href="#customers-section" class="nav-item"><i class="fa-solid fa-users"></i> Customers</a>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="project-info">
+                    <p class="project-label">Portfolio Project</p>
+                    <p class="project-author">Data Analyst Role</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-title-wrapper">
+                    <h1>E-Commerce Analytics & Customer Segmentation</h1>
+                    <p class="subtitle">Cohort Retention & RFM Behavioral Analysis Dashboard</p>
+                </div>
+                <div class="header-actions">
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                        <i class="fa-solid fa-sun icon-sun"></i>
+                        <i class="fa-solid fa-moon icon-moon"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- KPI Cards Row -->
+            <section class="kpi-grid">
+                <div class="kpi-card" id="kpi-revenue-card">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Total Revenue</span>
+                        <div class="kpi-icon-wrapper rev"><i class="fa-solid fa-dollar-sign"></i></div>
+                    </div>
+                    <div class="kpi-value" id="kpi-revenue">$0.00</div>
+                    <div class="kpi-indicator positive">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <span>Historical Total</span>
+                    </div>
+                </div>
+
+                <div class="kpi-card" id="kpi-customers-card">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Active Customers</span>
+                        <div class="kpi-icon-wrapper cust"><i class="fa-solid fa-users"></i></div>
+                    </div>
+                    <div class="kpi-value" id="kpi-customers">0</div>
+                    <div class="kpi-indicator neutral">
+                        <i class="fa-solid fa-minus"></i>
+                        <span>Unique Profiles</span>
+                    </div>
+                </div>
+
+                <div class="kpi-card" id="kpi-aov-card">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Average Order Value (AOV)</span>
+                        <div class="kpi-icon-wrapper aov"><i class="fa-solid fa-basket-shopping"></i></div>
+                    </div>
+                    <div class="kpi-value" id="kpi-aov">$0.00</div>
+                    <div class="kpi-indicator positive">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <span>Revenue / Invoice</span>
+                    </div>
+                </div>
+
+                <div class="kpi-card" id="kpi-retention-card">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Avg. Retention (Month 2)</span>
+                        <div class="kpi-icon-wrapper ret"><i class="fa-solid fa-arrows-spin"></i></div>
+                    </div>
+                    <div class="kpi-value" id="kpi-retention">0.0%</div>
+                    <div class="kpi-indicator warning">
+                        <i class="fa-solid fa-chart-area"></i>
+                        <span>Month 1 to 2</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Charts Grid -->
+            <section class="charts-grid">
+                <div class="chart-card large-chart">
+                    <h3>Monthly Revenue & Order Trends</h3>
+                    <div class="chart-container">
+                        <canvas id="salesTrendChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="chart-card small-chart">
+                    <h3>RFM Customer Segments</h3>
+                    <div class="chart-container">
+                        <canvas id="segmentChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cohort Retention Analysis Heatmap -->
+            <section class="dashboard-section" id="cohorts-section">
+                <div class="section-header">
+                    <h2>Monthly Cohort Retention Rate (%)</h2>
+                    <p class="section-desc">Track cohort retention performance over consecutive months from their first purchase date.</p>
+                </div>
+                <div class="heatmap-card">
+                    <div class="heatmap-table-wrapper">
+                        <table class="cohort-heatmap-table" id="cohort-heatmap">
+                            <thead>
+                                <!-- Generated Dynamically -->
+                            </thead>
+                            <tbody>
+                                <!-- Generated Dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Customer Database Grid -->
+            <section class="dashboard-section" id="customers-section">
+                <div class="section-header flex-header">
+                    <div>
+                        <h2>Customer Segment Explorer</h2>
+                        <p class="section-desc">Search customers, view individual RFM scores (Recency, Frequency, Monetary) and behavioral classification.</p>
+                    </div>
+                    <!-- Filter Toolbar -->
+                    <div class="filter-toolbar">
+                        <div class="search-box">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" id="customer-search" placeholder="Search Customer ID...">
+                        </div>
+                        <div class="select-box">
+                            <i class="fa-solid fa-filter"></i>
+                            <select id="segment-filter">
+                                <option value="All">All Segments</option>
+                                <option value="Champions">Champions</option>
+                                <option value="Loyal Customers">Loyal Customers</option>
+                                <option value="Promising/New">Promising/New</option>
+                                <option value="At Risk">At Risk</option>
+                                <option value="Lost/Hibernating">Lost/Hibernating</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-card">
+                    <div class="table-wrapper">
+                        <table class="customers-table">
+                            <thead>
+                                <tr>
+                                    <th>CustomerID</th>
+                                    <th>Recency (Days)</th>
+                                    <th>Frequency (Orders)</th>
+                                    <th>Monetary Spend</th>
+                                    <th class="text-center">RFM Score</th>
+                                    <th>Customer Segment</th>
+                                </tr>
+                            </thead>
+                            <tbody id="customers-table-body">
+                                <!-- Generated Dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-footer">
+                        <span id="table-entries-info">Showing 0 of 0 customers</span>
+                        <div class="pagination-controls" id="table-pagination">
+                            <!-- Generated Dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Script Entry -->
+    <script src="app.js"></script>
+</body>
+</html>

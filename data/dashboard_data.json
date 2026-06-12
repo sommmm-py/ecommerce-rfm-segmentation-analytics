@@ -1,0 +1,1915 @@
+{
+  "kpis": {
+    "totalRevenue": 430573.45999999996,
+    "totalCustomers": 800,
+    "totalOrders": 2927,
+    "aov": 147.1,
+    "retentionRate": 98.4
+  },
+  "salesTrend": [
+    {
+      "month": "2025-01",
+      "revenue": 5724.16,
+      "orders": 121
+    },
+    {
+      "month": "2025-02",
+      "revenue": 16441.15,
+      "orders": 405
+    },
+    {
+      "month": "2025-03",
+      "revenue": 24125.24,
+      "orders": 557
+    },
+    {
+      "month": "2025-04",
+      "revenue": 30030.24,
+      "orders": 691
+    },
+    {
+      "month": "2025-05",
+      "revenue": 40885.52,
+      "orders": 877
+    },
+    {
+      "month": "2025-06",
+      "revenue": 39617.77,
+      "orders": 833
+    },
+    {
+      "month": "2025-07",
+      "revenue": 39189.38,
+      "orders": 836
+    },
+    {
+      "month": "2025-08",
+      "revenue": 43044.44,
+      "orders": 909
+    },
+    {
+      "month": "2025-09",
+      "revenue": 37845.67,
+      "orders": 802
+    },
+    {
+      "month": "2025-10",
+      "revenue": 37307.87,
+      "orders": 859
+    },
+    {
+      "month": "2025-11",
+      "revenue": 31133.99,
+      "orders": 714
+    },
+    {
+      "month": "2025-12",
+      "revenue": 24182.36,
+      "orders": 589
+    },
+    {
+      "month": "2026-01",
+      "revenue": 18582.24,
+      "orders": 477
+    },
+    {
+      "month": "2026-02",
+      "revenue": 13857.24,
+      "orders": 362
+    },
+    {
+      "month": "2026-03",
+      "revenue": 12446.68,
+      "orders": 307
+    },
+    {
+      "month": "2026-04",
+      "revenue": 10027.93,
+      "orders": 264
+    },
+    {
+      "month": "2026-05",
+      "revenue": 6131.58,
+      "orders": 171
+    }
+  ],
+  "segmentation": [
+    {
+      "segment": "Promising/New",
+      "count": 179,
+      "percentage": 22.4
+    },
+    {
+      "segment": "At Risk",
+      "count": 177,
+      "percentage": 22.1
+    },
+    {
+      "segment": "Loyal Customers",
+      "count": 163,
+      "percentage": 20.4
+    },
+    {
+      "segment": "Lost/Hibernating",
+      "count": 141,
+      "percentage": 17.6
+    },
+    {
+      "segment": "Champions",
+      "count": 140,
+      "percentage": 17.5
+    }
+  ],
+  "cohorts": [
+    {
+      "cohort": "2025-01",
+      "size": 39,
+      "retention": [
+        100.0,
+        100.0,
+        87.2,
+        71.8,
+        61.5,
+        59.0,
+        23.1,
+        25.6,
+        20.5,
+        null,
+        2.6,
+        5.1
+      ]
+    },
+    {
+      "cohort": "2025-02",
+      "size": 67,
+      "retention": [
+        100.0,
+        97.0,
+        91.0,
+        77.6,
+        56.7,
+        37.3,
+        28.4,
+        20.9,
+        14.9,
+        7.5,
+        6.0,
+        1.5
+      ]
+    },
+    {
+      "cohort": "2025-03",
+      "size": 68,
+      "retention": [
+        100.0,
+        100.0,
+        94.1,
+        82.4,
+        61.8,
+        47.1,
+        29.4,
+        17.6,
+        16.2,
+        11.8,
+        4.4,
+        1.5
+      ]
+    },
+    {
+      "cohort": "2025-04",
+      "size": 86,
+      "retention": [
+        100.0,
+        100.0,
+        93.0,
+        82.6,
+        58.1,
+        36.0,
+        25.6,
+        15.1,
+        16.3,
+        5.8,
+        4.7,
+        null
+      ]
+    },
+    {
+      "cohort": "2025-05",
+      "size": 86,
+      "retention": [
+        100.0,
+        94.2,
+        93.0,
+        77.9,
+        58.1,
+        48.8,
+        27.9,
+        15.1,
+        7.0,
+        4.7,
+        3.5,
+        4.7
+      ]
+    },
+    {
+      "cohort": "2025-06",
+      "size": 74,
+      "retention": [
+        100.0,
+        98.6,
+        89.2,
+        77.0,
+        59.5,
+        40.5,
+        27.0,
+        14.9,
+        14.9,
+        4.1,
+        6.8,
+        2.7
+      ]
+    },
+    {
+      "cohort": "2025-07",
+      "size": 71,
+      "retention": [
+        100.0,
+        100.0,
+        83.1,
+        67.6,
+        62.0,
+        39.4,
+        28.2,
+        19.7,
+        12.7,
+        7.0,
+        5.6,
+        null
+      ]
+    },
+    {
+      "cohort": "2025-08",
+      "size": 77,
+      "retention": [
+        100.0,
+        96.1,
+        92.2,
+        74.0,
+        58.4,
+        42.9,
+        33.8,
+        18.2,
+        9.1,
+        9.1,
+        null,
+        null
+      ]
+    },
+    {
+      "cohort": "2025-09",
+      "size": 68,
+      "retention": [
+        100.0,
+        98.5,
+        89.7,
+        79.4,
+        63.2,
+        45.6,
+        30.9,
+        22.1,
+        8.8,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "cohort": "2025-10",
+      "size": 57,
+      "retention": [
+        100.0,
+        98.2,
+        87.7,
+        73.7,
+        54.4,
+        42.1,
+        31.6,
+        21.1,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "cohort": "2025-11",
+      "size": 30,
+      "retention": [
+        100.0,
+        100.0,
+        83.3,
+        63.3,
+        46.7,
+        43.3,
+        20.0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "cohort": "2025-12",
+      "size": 27,
+      "retention": [
+        100.0,
+        92.6,
+        88.9,
+        85.2,
+        51.9,
+        55.6,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "cohort": "2026-01",
+      "size": 22,
+      "retention": [
+        100.0,
+        100.0,
+        90.9,
+        63.6,
+        68.2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "cohort": "2026-02",
+      "size": 13,
+      "retention": [
+        100.0,
+        100.0,
+        84.6,
+        76.9,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "cohort": "2026-03",
+      "size": 9,
+      "retention": [
+        100.0,
+        100.0,
+        88.9,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "cohort": "2026-04",
+      "size": 6,
+      "retention": [
+        100.0,
+        100.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": "C10244",
+      "recency": 145,
+      "frequency": 23,
+      "monetary": 1392.09,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10292",
+      "recency": 211,
+      "frequency": 26,
+      "monetary": 1391.67,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10750",
+      "recency": 148,
+      "frequency": 14,
+      "monetary": 1391.05,
+      "r_score": 3,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10620",
+      "recency": 21,
+      "frequency": 18,
+      "monetary": 1349.09,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10356",
+      "recency": 61,
+      "frequency": 19,
+      "monetary": 1341.43,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10474",
+      "recency": 139,
+      "frequency": 18,
+      "monetary": 1201.41,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10489",
+      "recency": 320,
+      "frequency": 18,
+      "monetary": 1199.65,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10049",
+      "recency": 198,
+      "frequency": 10,
+      "monetary": 1177.65,
+      "r_score": 2,
+      "f_score": 1,
+      "m_score": 5,
+      "segment": "Lost/Hibernating"
+    },
+    {
+      "id": "C10601",
+      "recency": 123,
+      "frequency": 24,
+      "monetary": 1155.18,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10566",
+      "recency": 187,
+      "frequency": 17,
+      "monetary": 1150.22,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10446",
+      "recency": 115,
+      "frequency": 27,
+      "monetary": 1145.14,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10269",
+      "recency": 177,
+      "frequency": 16,
+      "monetary": 1111.82,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10361",
+      "recency": 247,
+      "frequency": 25,
+      "monetary": 1109.06,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10524",
+      "recency": 186,
+      "frequency": 21,
+      "monetary": 1108.84,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10018",
+      "recency": 245,
+      "frequency": 23,
+      "monetary": 1104.26,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10730",
+      "recency": 65,
+      "frequency": 21,
+      "monetary": 1090.28,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10725",
+      "recency": 170,
+      "frequency": 16,
+      "monetary": 1072.24,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10235",
+      "recency": 348,
+      "frequency": 16,
+      "monetary": 1070.55,
+      "r_score": 1,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10202",
+      "recency": 145,
+      "frequency": 16,
+      "monetary": 1068.45,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10204",
+      "recency": 161,
+      "frequency": 16,
+      "monetary": 1055.08,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10215",
+      "recency": 293,
+      "frequency": 17,
+      "monetary": 1053.09,
+      "r_score": 1,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10656",
+      "recency": 283,
+      "frequency": 17,
+      "monetary": 1049.78,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10325",
+      "recency": 110,
+      "frequency": 16,
+      "monetary": 1039.3,
+      "r_score": 4,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10367",
+      "recency": 209,
+      "frequency": 25,
+      "monetary": 1039.05,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10124",
+      "recency": 5,
+      "frequency": 15,
+      "monetary": 1038.35,
+      "r_score": 5,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10705",
+      "recency": 70,
+      "frequency": 14,
+      "monetary": 1031.63,
+      "r_score": 4,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10494",
+      "recency": 211,
+      "frequency": 21,
+      "monetary": 1027.79,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10305",
+      "recency": 225,
+      "frequency": 17,
+      "monetary": 1000.42,
+      "r_score": 2,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10286",
+      "recency": 6,
+      "frequency": 19,
+      "monetary": 1000.25,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10611",
+      "recency": 164,
+      "frequency": 19,
+      "monetary": 997.47,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10597",
+      "recency": 16,
+      "frequency": 15,
+      "monetary": 995.3,
+      "r_score": 5,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10727",
+      "recency": 286,
+      "frequency": 20,
+      "monetary": 990.66,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10533",
+      "recency": 96,
+      "frequency": 16,
+      "monetary": 990.12,
+      "r_score": 4,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10509",
+      "recency": 117,
+      "frequency": 11,
+      "monetary": 987.33,
+      "r_score": 4,
+      "f_score": 2,
+      "m_score": 5,
+      "segment": "Promising/New"
+    },
+    {
+      "id": "C10643",
+      "recency": 132,
+      "frequency": 15,
+      "monetary": 985.93,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10012",
+      "recency": 309,
+      "frequency": 19,
+      "monetary": 982.53,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10529",
+      "recency": 86,
+      "frequency": 15,
+      "monetary": 975.54,
+      "r_score": 4,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10296",
+      "recency": 180,
+      "frequency": 17,
+      "monetary": 968.23,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10042",
+      "recency": 236,
+      "frequency": 20,
+      "monetary": 967.18,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10394",
+      "recency": 82,
+      "frequency": 18,
+      "monetary": 945.25,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10787",
+      "recency": 54,
+      "frequency": 16,
+      "monetary": 940.74,
+      "r_score": 5,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10583",
+      "recency": 106,
+      "frequency": 14,
+      "monetary": 939.15,
+      "r_score": 4,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10015",
+      "recency": 318,
+      "frequency": 15,
+      "monetary": 930.58,
+      "r_score": 1,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10644",
+      "recency": 133,
+      "frequency": 18,
+      "monetary": 928.51,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10347",
+      "recency": 308,
+      "frequency": 17,
+      "monetary": 924.85,
+      "r_score": 1,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10250",
+      "recency": 22,
+      "frequency": 12,
+      "monetary": 920.95,
+      "r_score": 5,
+      "f_score": 2,
+      "m_score": 5,
+      "segment": "Promising/New"
+    },
+    {
+      "id": "C10555",
+      "recency": 24,
+      "frequency": 23,
+      "monetary": 916.78,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10672",
+      "recency": 271,
+      "frequency": 16,
+      "monetary": 915.39,
+      "r_score": 1,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10104",
+      "recency": 307,
+      "frequency": 17,
+      "monetary": 914.26,
+      "r_score": 1,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10402",
+      "recency": 211,
+      "frequency": 15,
+      "monetary": 913.6,
+      "r_score": 2,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10445",
+      "recency": 208,
+      "frequency": 12,
+      "monetary": 912.66,
+      "r_score": 2,
+      "f_score": 2,
+      "m_score": 5,
+      "segment": "Lost/Hibernating"
+    },
+    {
+      "id": "C10471",
+      "recency": 301,
+      "frequency": 21,
+      "monetary": 910.59,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10762",
+      "recency": 71,
+      "frequency": 16,
+      "monetary": 908.6,
+      "r_score": 4,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10716",
+      "recency": 17,
+      "frequency": 12,
+      "monetary": 907.71,
+      "r_score": 5,
+      "f_score": 2,
+      "m_score": 5,
+      "segment": "Promising/New"
+    },
+    {
+      "id": "C10162",
+      "recency": 348,
+      "frequency": 19,
+      "monetary": 905.93,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10433",
+      "recency": 231,
+      "frequency": 22,
+      "monetary": 903.5,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10079",
+      "recency": 175,
+      "frequency": 18,
+      "monetary": 903.28,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10686",
+      "recency": 85,
+      "frequency": 18,
+      "monetary": 900.5,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10503",
+      "recency": 8,
+      "frequency": 17,
+      "monetary": 899.86,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10281",
+      "recency": 81,
+      "frequency": 22,
+      "monetary": 895.09,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10609",
+      "recency": 120,
+      "frequency": 18,
+      "monetary": 891.95,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10739",
+      "recency": 162,
+      "frequency": 18,
+      "monetary": 891.9,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10189",
+      "recency": 261,
+      "frequency": 14,
+      "monetary": 891.59,
+      "r_score": 1,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10344",
+      "recency": 248,
+      "frequency": 17,
+      "monetary": 878.73,
+      "r_score": 2,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10047",
+      "recency": 197,
+      "frequency": 13,
+      "monetary": 877.98,
+      "r_score": 2,
+      "f_score": 2,
+      "m_score": 5,
+      "segment": "Lost/Hibernating"
+    },
+    {
+      "id": "C10516",
+      "recency": 54,
+      "frequency": 17,
+      "monetary": 875.95,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10500",
+      "recency": 276,
+      "frequency": 14,
+      "monetary": 875.61,
+      "r_score": 1,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10376",
+      "recency": 358,
+      "frequency": 14,
+      "monetary": 866.88,
+      "r_score": 1,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10573",
+      "recency": 183,
+      "frequency": 19,
+      "monetary": 864.1,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10514",
+      "recency": 283,
+      "frequency": 17,
+      "monetary": 860.22,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10571",
+      "recency": 171,
+      "frequency": 18,
+      "monetary": 856.02,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10350",
+      "recency": 107,
+      "frequency": 19,
+      "monetary": 850.13,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10420",
+      "recency": 291,
+      "frequency": 18,
+      "monetary": 846.22,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10223",
+      "recency": 25,
+      "frequency": 19,
+      "monetary": 845.82,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10684",
+      "recency": 186,
+      "frequency": 21,
+      "monetary": 844.18,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10660",
+      "recency": 189,
+      "frequency": 15,
+      "monetary": 840.66,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10275",
+      "recency": 258,
+      "frequency": 16,
+      "monetary": 839.14,
+      "r_score": 1,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10118",
+      "recency": 234,
+      "frequency": 16,
+      "monetary": 833.3,
+      "r_score": 2,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10262",
+      "recency": 89,
+      "frequency": 18,
+      "monetary": 831.95,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10487",
+      "recency": 222,
+      "frequency": 23,
+      "monetary": 825.5,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10537",
+      "recency": 203,
+      "frequency": 19,
+      "monetary": 823.37,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10671",
+      "recency": 198,
+      "frequency": 14,
+      "monetary": 821.83,
+      "r_score": 2,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10703",
+      "recency": 161,
+      "frequency": 16,
+      "monetary": 819.67,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10634",
+      "recency": 34,
+      "frequency": 15,
+      "monetary": 817.87,
+      "r_score": 5,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10664",
+      "recency": 45,
+      "frequency": 14,
+      "monetary": 813.72,
+      "r_score": 5,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10559",
+      "recency": 327,
+      "frequency": 19,
+      "monetary": 812.34,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10135",
+      "recency": 341,
+      "frequency": 16,
+      "monetary": 812.12,
+      "r_score": 1,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10554",
+      "recency": 244,
+      "frequency": 18,
+      "monetary": 809.44,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10236",
+      "recency": 122,
+      "frequency": 15,
+      "monetary": 803.36,
+      "r_score": 4,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10771",
+      "recency": 49,
+      "frequency": 17,
+      "monetary": 803.33,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10014",
+      "recency": 196,
+      "frequency": 15,
+      "monetary": 802.87,
+      "r_score": 2,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10095",
+      "recency": 37,
+      "frequency": 18,
+      "monetary": 801.59,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10013",
+      "recency": 222,
+      "frequency": 21,
+      "monetary": 799.61,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10227",
+      "recency": 189,
+      "frequency": 19,
+      "monetary": 798.58,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10437",
+      "recency": 365,
+      "frequency": 17,
+      "monetary": 798.28,
+      "r_score": 1,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10486",
+      "recency": 253,
+      "frequency": 12,
+      "monetary": 797.34,
+      "r_score": 2,
+      "f_score": 2,
+      "m_score": 5,
+      "segment": "Lost/Hibernating"
+    },
+    {
+      "id": "C10395",
+      "recency": 33,
+      "frequency": 20,
+      "monetary": 796.94,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10107",
+      "recency": 208,
+      "frequency": 22,
+      "monetary": 795.62,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10652",
+      "recency": 159,
+      "frequency": 13,
+      "monetary": 792.22,
+      "r_score": 3,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10340",
+      "recency": 216,
+      "frequency": 16,
+      "monetary": 791.87,
+      "r_score": 2,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10341",
+      "recency": 53,
+      "frequency": 11,
+      "monetary": 791.38,
+      "r_score": 5,
+      "f_score": 2,
+      "m_score": 5,
+      "segment": "Promising/New"
+    },
+    {
+      "id": "C10165",
+      "recency": 217,
+      "frequency": 18,
+      "monetary": 790.5,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10329",
+      "recency": 142,
+      "frequency": 20,
+      "monetary": 790.12,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10348",
+      "recency": 177,
+      "frequency": 15,
+      "monetary": 789.1,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10224",
+      "recency": 253,
+      "frequency": 17,
+      "monetary": 786.29,
+      "r_score": 2,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10477",
+      "recency": 2,
+      "frequency": 11,
+      "monetary": 784.46,
+      "r_score": 5,
+      "f_score": 2,
+      "m_score": 5,
+      "segment": "Promising/New"
+    },
+    {
+      "id": "C10232",
+      "recency": 110,
+      "frequency": 17,
+      "monetary": 784.39,
+      "r_score": 4,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10738",
+      "recency": 243,
+      "frequency": 21,
+      "monetary": 782.2,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10440",
+      "recency": 128,
+      "frequency": 18,
+      "monetary": 780.74,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10064",
+      "recency": 151,
+      "frequency": 23,
+      "monetary": 780.51,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10786",
+      "recency": 117,
+      "frequency": 17,
+      "monetary": 777.33,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10519",
+      "recency": 105,
+      "frequency": 17,
+      "monetary": 776.03,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10326",
+      "recency": 146,
+      "frequency": 10,
+      "monetary": 771.1,
+      "r_score": 3,
+      "f_score": 1,
+      "m_score": 5,
+      "segment": "Promising/New"
+    },
+    {
+      "id": "C10067",
+      "recency": 27,
+      "frequency": 12,
+      "monetary": 770.24,
+      "r_score": 5,
+      "f_score": 2,
+      "m_score": 5,
+      "segment": "Promising/New"
+    },
+    {
+      "id": "C10416",
+      "recency": 22,
+      "frequency": 21,
+      "monetary": 768.73,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10492",
+      "recency": 201,
+      "frequency": 18,
+      "monetary": 765.14,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10505",
+      "recency": 287,
+      "frequency": 15,
+      "monetary": 761.29,
+      "r_score": 1,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10600",
+      "recency": 122,
+      "frequency": 17,
+      "monetary": 758.84,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10060",
+      "recency": 185,
+      "frequency": 16,
+      "monetary": 758.25,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10030",
+      "recency": 64,
+      "frequency": 16,
+      "monetary": 757.2,
+      "r_score": 4,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10695",
+      "recency": 202,
+      "frequency": 17,
+      "monetary": 756.55,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10048",
+      "recency": 234,
+      "frequency": 20,
+      "monetary": 756.35,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10322",
+      "recency": 287,
+      "frequency": 16,
+      "monetary": 754.84,
+      "r_score": 1,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10387",
+      "recency": 58,
+      "frequency": 22,
+      "monetary": 753.91,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10159",
+      "recency": 190,
+      "frequency": 15,
+      "monetary": 753.82,
+      "r_score": 3,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10495",
+      "recency": 63,
+      "frequency": 17,
+      "monetary": 751.64,
+      "r_score": 4,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10197",
+      "recency": 41,
+      "frequency": 11,
+      "monetary": 751.61,
+      "r_score": 5,
+      "f_score": 2,
+      "m_score": 5,
+      "segment": "Promising/New"
+    },
+    {
+      "id": "C10548",
+      "recency": 148,
+      "frequency": 15,
+      "monetary": 750.83,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10782",
+      "recency": 6,
+      "frequency": 16,
+      "monetary": 748.66,
+      "r_score": 5,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10200",
+      "recency": 338,
+      "frequency": 18,
+      "monetary": 745.81,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10022",
+      "recency": 92,
+      "frequency": 10,
+      "monetary": 743.06,
+      "r_score": 4,
+      "f_score": 1,
+      "m_score": 5,
+      "segment": "Promising/New"
+    },
+    {
+      "id": "C10453",
+      "recency": 52,
+      "frequency": 17,
+      "monetary": 741.09,
+      "r_score": 5,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10591",
+      "recency": 236,
+      "frequency": 19,
+      "monetary": 738.43,
+      "r_score": 2,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10034",
+      "recency": 177,
+      "frequency": 19,
+      "monetary": 737.14,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10098",
+      "recency": 138,
+      "frequency": 19,
+      "monetary": 736.79,
+      "r_score": 3,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    },
+    {
+      "id": "C10245",
+      "recency": 92,
+      "frequency": 20,
+      "monetary": 736.7,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10123",
+      "recency": 109,
+      "frequency": 18,
+      "monetary": 733.01,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10428",
+      "recency": 256,
+      "frequency": 13,
+      "monetary": 727.86,
+      "r_score": 1,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10512",
+      "recency": 28,
+      "frequency": 18,
+      "monetary": 726.78,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10372",
+      "recency": 10,
+      "frequency": 18,
+      "monetary": 726.13,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10284",
+      "recency": 262,
+      "frequency": 14,
+      "monetary": 725.35,
+      "r_score": 1,
+      "f_score": 3,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10450",
+      "recency": 92,
+      "frequency": 16,
+      "monetary": 723.28,
+      "r_score": 4,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10051",
+      "recency": 359,
+      "frequency": 21,
+      "monetary": 719.79,
+      "r_score": 1,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "At Risk"
+    },
+    {
+      "id": "C10651",
+      "recency": 22,
+      "frequency": 17,
+      "monetary": 717.36,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10562",
+      "recency": 37,
+      "frequency": 16,
+      "monetary": 716.32,
+      "r_score": 5,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10761",
+      "recency": 1,
+      "frequency": 16,
+      "monetary": 715.55,
+      "r_score": 5,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10576",
+      "recency": 101,
+      "frequency": 18,
+      "monetary": 714.94,
+      "r_score": 4,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10728",
+      "recency": 3,
+      "frequency": 17,
+      "monetary": 714.4,
+      "r_score": 5,
+      "f_score": 5,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10508",
+      "recency": 24,
+      "frequency": 16,
+      "monetary": 714.17,
+      "r_score": 5,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Champions"
+    },
+    {
+      "id": "C10380",
+      "recency": 170,
+      "frequency": 17,
+      "monetary": 713.92,
+      "r_score": 3,
+      "f_score": 4,
+      "m_score": 5,
+      "segment": "Loyal Customers"
+    }
+  ]
+}
